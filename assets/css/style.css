@@ -1,3 +1,41 @@
-a:link { 
-    text-decoration: none; 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(73, 71, 71);
+    font-family: 'Bungee Hairline', cursive;
+}
+.card {
+    background: rgb(83, 85, 87);
+    padding: 1em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input.search-bar {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: inherit;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: inherit;
+}
+h1.city,
+h2.temp,
+div.description,
+div.humidity,
+div.wind {
+    color: white;
 }
