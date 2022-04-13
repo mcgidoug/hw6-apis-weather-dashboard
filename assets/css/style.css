@@ -4,11 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: rgb(73, 71, 71);
+    background: rgb(170, 152, 152);
     font-family: 'Bungee Hairline', cursive;
 }
 .card {
-    background: rgb(83, 85, 87);
+    background: rgb(140, 145, 150);
     padding: 1em;
     border-radius: 20px;
     width: 100%;
